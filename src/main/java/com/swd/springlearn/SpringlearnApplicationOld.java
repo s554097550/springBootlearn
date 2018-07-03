@@ -15,11 +15,23 @@ import java.util.Arrays;
  */
 @RestController
 @SpringBootApplication
-public class SpringlearnApplication {
+public class SpringlearnApplicationOld {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringlearnApplication.class, args);
+        SpringApplication.run(SpringlearnApplicationOld.class, args);
     }
-
+    @GetMapping
+    public String demo1(){
+        return "hello word";
+    }
+    @Bean
+    public CommandLineRunner commandLineRunner(ApplicationContext ctx){
+        return args -> {
+            System.out.printf("来看看springBoot默认为我们提供的Bean:");
+            String[] beanNames =  ctx.getBeanDefinitionNames();
+            Arrays.sort(beanNames);
+            Arrays.stream(beanNames).forEach(System.out::println);
+        };
+    }
 }
 
