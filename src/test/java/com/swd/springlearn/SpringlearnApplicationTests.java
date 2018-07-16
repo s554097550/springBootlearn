@@ -16,7 +16,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(classes = SpringlearnApplication.class,webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class SpringlearnApplicationTests {
 
     @LocalServerPort
