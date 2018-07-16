@@ -15,10 +15,10 @@ import java.util.Arrays;
  */
 @RestController
 @SpringBootApplication
-public class Oldsp {
+public class SpringlearnApplicationOld {
 
-    /*public static void main(String[] args) {
-        SpringApplication.run(Oldsp.class, args);
+    public static void main(String[] args) {
+        SpringApplication.run(SpringlearnApplicationOld.class, args);
     }
     @GetMapping
     public String demo1(){
@@ -32,6 +32,6 @@ public class Oldsp {
             Arrays.sort(beanNames);
             Arrays.stream(beanNames).forEach(System.out::println);
         };
-    }*/
+    }
 }
 
