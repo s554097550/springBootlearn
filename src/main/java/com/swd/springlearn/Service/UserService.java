@@ -1,6 +1,6 @@
 package com.swd.springlearn.Service;
 
-import com.swd.springlearn.Dao.UserDao;
+import com.swd.springlearn.dao.UserDao;
 import com.swd.springlearn.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

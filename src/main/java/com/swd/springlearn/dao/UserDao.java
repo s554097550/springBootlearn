@@ -1,4 +1,4 @@
-package com.swd.springlearn.Dao;
+package com.swd.springlearn.dao;
 
 import com.swd.springlearn.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
