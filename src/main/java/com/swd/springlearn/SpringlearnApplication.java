@@ -22,7 +22,7 @@ import java.util.Arrays;
 @EnableSwagger2
 @SpringBootApplication
 @EnableAsync
-@EnableScheduling
+//@EnableScheduling
 public class SpringlearnApplication {
 
     public static void main(String[] args) {
