@@ -2,7 +2,7 @@ package com.swd.springlearn.interceptor;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-import com.swd.springlearn.Exception.CustomException;
+import com.swd.springlearn.exception.CustomException;
 import com.swd.springlearn.annotation.LocalLock;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

@@ -1,4 +1,4 @@
-package com.swd.springlearn.Exception;
+package com.swd.springlearn.exception;
 
 /**
  * @author swd

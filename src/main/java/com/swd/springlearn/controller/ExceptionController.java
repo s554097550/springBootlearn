@@ -1,7 +1,6 @@
 package com.swd.springlearn.controller;
 
-import com.swd.springlearn.Exception.CustomException;
-import org.springframework.stereotype.Controller;
+import com.swd.springlearn.exception.CustomException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

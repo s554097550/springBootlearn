@@ -1,4 +1,4 @@
-package com.swd.springlearn.Exception;
+package com.swd.springlearn.exception;
 
 import com.swd.springlearn.entity.ErrorResponseEntity;
 import org.springframework.http.HttpHeaders;
@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     /**
-     * 定义要捕获的异常，可以多个@Exception({})
+     * 定义要捕获的异常，可以多个@exception({})
      * @param request
      * @param e
      * @param response

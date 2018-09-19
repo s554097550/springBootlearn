@@ -27,6 +27,13 @@ public class ThymeleafController {
         return mv;
     }
 
+    @GetMapping("/chat")
+    public ModelAndView chat(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("chat");
+        return mv;
+    }
+
     @GetMapping("/index1")
     public String index1(HttpServletRequest request){
         request.setAttribute("title","第一个web页面");

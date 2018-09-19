@@ -1,4 +1,4 @@
-package com.swd.springlearn.Service;
+package com.swd.springlearn.service;
 
 import com.swd.springlearn.dao.UserDao;
 import com.swd.springlearn.entity.User;
